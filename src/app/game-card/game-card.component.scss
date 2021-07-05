@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'TTNorms';
+  src: url(../../assets/fonts/TTNorms-Regular.otf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: TTNorms;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.game-card {
+  width: 359px;
+}
+
+.game-img {
+  width: 359px;
+  height: 210px;
+  margin: 0 0 10px 0;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.game-card-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-card-data-text .title {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.game-card-data-text .price {
+  opacity: 0.6;
+  font-size: 15px;
+  line-height: 2.4;
+}
+
+.game-card-data-button {
+  width: 113px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #2529d8;
+  font-size: 13px;
+  cursor: pointer;
+}

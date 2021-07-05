@@ -1,0 +1,10 @@
+<div class="game-card">
+  <img class="game-img" src="{{ game.img | imageLocation }}" alt="" />
+  <div class="game-card-data">
+    <div class="game-card-data-text">
+      <div class="title">{{ game.title | limitText: 18 }}</div>
+      <div class="price">{{ game.price }} €</div>
+    </div>
+    <div class="game-card-data-button">BUY NOW</div>
+  </div>
+</div>

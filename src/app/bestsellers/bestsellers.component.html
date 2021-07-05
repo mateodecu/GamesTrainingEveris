@@ -1,0 +1,9 @@
+<div class="bestsellers">
+  <p class="bestsellers-title">{{ title | uppercase }}</p>
+
+  <div class="cards-container">
+    <div *ngFor="let game of bestsellers">
+      <app-game-card [game]="game"></app-game-card>
+    </div>
+  </div>
+</div>

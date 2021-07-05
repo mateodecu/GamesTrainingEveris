@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.bestsellers-title {
+  margin: 0 0 34px 0;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-column-gap: 15px;
+  grid-row-gap: 33px;
+}
