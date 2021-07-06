@@ -5,14 +5,15 @@ import { Game } from '../models/game.model';
   providedIn: 'root'
 })
 export class GamesService {
-  games: Game[] = [
+  'games': Game[] = [
     {
       id: 0,
       title: 'Hollow Knight - Silksong',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 29.99,
-      img: 'HollowKnightSilksong.jpg'
+      img: 'HollowKnightSilksong.jpg',
+      newRelease: false
     },
     {
       id: 1,
@@ -20,7 +21,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 49.99,
-      img: 'MarioKart8Deluxe.jpg'
+      img: 'MarioKart8Deluxe.jpg',
+      newRelease: true
     },
     {
       id: 2,
@@ -28,7 +30,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 39.99,
-      img: 'NewSuperMarioBrosUDeluxe.jpg'
+      img: 'NewSuperMarioBrosUDeluxe.jpg',
+      newRelease: false
     },
     {
       id: 3,
@@ -36,7 +39,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 29.99,
-      img: 'OriAndTheBlindForestDefinitiveEdition.jpg'
+      img: 'OriAndTheBlindForestDefinitiveEdition.jpg',
+      newRelease: false
     },
     {
       id: 4,
@@ -44,7 +48,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 29.99,
-      img: 'OriAndTheWillOfTheWisps.jpg'
+      img: 'OriAndTheWillOfTheWisps.jpg',
+      newRelease: true
     },
     {
       id: 5,
@@ -52,7 +57,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 34.99,
-      img: 'PokemonShield.jpg'
+      img: 'PokemonShield.jpg',
+      newRelease: false
     },
     {
       id: 6,
@@ -60,7 +66,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 34.99,
-      img: 'PokemonShiningPearl.jpg'
+      img: 'PokemonShiningPearl.jpg',
+      newRelease: true
     },
     {
       id: 7,
@@ -68,7 +75,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 34.99,
-      img: 'PokemonSword.jpg'
+      img: 'PokemonSword.jpg',
+      newRelease: false
     },
     {
       id: 8,
@@ -76,7 +84,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 24.99,
-      img: 'Rime.jpg'
+      img: 'Rime.jpg',
+      newRelease: true
     },
     {
       id: 9,
@@ -84,7 +93,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 39.99,
-      img: 'SuperMario3DAllstars.jpg'
+      img: 'SuperMario3DAllstars.jpg',
+      newRelease: true
     },
     {
       id: 10,
@@ -92,7 +102,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 39.99,
-      img: 'SuperMario3DWorldAndBowsersFury.jpg'
+      img: 'SuperMario3DWorldAndBowsersFury.jpg',
+      newRelease: false
     },
     {
       id: 11,
@@ -100,7 +111,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 49.99,
-      img: 'SuperSmashBrosUltimate.jpg'
+      img: 'SuperSmashBrosUltimate.jpg',
+      newRelease: false
     },
     {
       id: 12,
@@ -108,7 +120,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 59.99,
-      img: 'TheLegendOfZeldaBreathOfTheWild.jpg'
+      img: 'TheLegendOfZeldaBreathOfTheWild.jpg',
+      newRelease: true
     },
     {
       id: 13,
@@ -116,7 +129,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 49.99,
-      img: 'TheLegendOfZeldaLinksAwakening.jpg'
+      img: 'TheLegendOfZeldaLinksAwakening.jpg',
+      newRelease: false
     },
     {
       id: 14,
@@ -124,7 +138,8 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 49.99,
-      img: 'TheLegendOfZeldaSkywardSwordHD.jpg'
+      img: 'TheLegendOfZeldaSkywardSwordHD.jpg',
+      newRelease: false
     },
     {
       id: 15,
@@ -132,13 +147,19 @@ export class GamesService {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
       price: 44.99,
-      img: 'XenobladeChroniclesDefinitiveEdition.jpg'
+      img: 'XenobladeChroniclesDefinitiveEdition.jpg',
+      newRelease: true
     }
   ];
 
   constructor() {}
 
   getGames(): Game[] {
+    console.log(this.games);
     return this.games;
+  }
+
+  getGame(id: number): Game {
+    return this.games[id];
   }
 }

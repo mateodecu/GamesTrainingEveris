@@ -1,8 +1,11 @@
-<div class="bestsellers">
+<div class="bestsellers fadeInAnimation">
   <p class="bestsellers-title">{{ title | uppercase }}</p>
 
   <div class="cards-container">
-    <div *ngFor="let game of bestsellers">
+    <div
+      *ngFor="let game of bestsellers; let id = index"
+      (click)="goToGame(id)"
+    >
       <app-game-card [game]="game"></app-game-card>
     </div>
   </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { Game } from '../models/game.model';
 
@@ -14,14 +15,17 @@ export class BestsellersComponent implements OnInit {
 
   bestsellers: Game[] = [];
 
-  constructor(private _gamesService: GamesService) {}
+  constructor(private _gamesService: GamesService, private router: Router) {}
 
   ngOnInit(): void {
     this.getGames();
-    console.log(this.bestsellers);
   }
 
   getGames(): void {
     this.bestsellers = this._gamesService.getGames();
+  }
+
+  goToGame(id: number): void {
+    this.router.navigate(['/game', id]);
   }
 }

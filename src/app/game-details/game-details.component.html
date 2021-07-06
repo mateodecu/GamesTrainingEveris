@@ -1,0 +1,33 @@
+<div class="game-details-container fadeInAnimation">
+  <img
+    class="game-details-container-img"
+    src="{{ game.img | imageLocation }}"
+  />
+  <div class="game-details-container-header">
+    <div
+      class="new-release"
+      [style.visibility]="game.newRelease ? 'visible' : 'hidden'"
+    >
+      <svg>
+        <circle />
+      </svg>
+      <h5>
+        NEW RELEASE
+      </h5>
+    </div>
+    <p class="title">
+      {{ game.title }}
+    </p>
+    <div class="install">
+      <p class="price">{{ game.price }}€</p>
+      <button>INSTALL GAME</button>
+    </div>
+  </div>
+
+  <div class="game-description">
+    <img class="game-description-img" src="{{ game.img | imageLocation }}" />
+    <p class="description">
+      {{ game.description }}
+    </p>
+  </div>
+</div>

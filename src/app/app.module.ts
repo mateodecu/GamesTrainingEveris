@@ -8,9 +8,10 @@ import { BestsellersComponent } from './bestsellers/bestsellers.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ImageLocationPipe } from './pipes/image-location.pipe';
 import { LimitTextPipe } from './pipes/limit-text.pipe';
+import { GameDetailsComponent } from './game-details/game-details.component';
 
 @NgModule({
-  declarations: [AppComponent, GameCardComponent, BestsellersComponent, ImageLocationPipe, LimitTextPipe],
+  declarations: [AppComponent, GameCardComponent, BestsellersComponent, ImageLocationPipe, LimitTextPipe, GameDetailsComponent],
   imports: [BrowserModule, CoreModule, AppRoutingModule, ViewsModule],
   providers: [],
   bootstrap: [AppComponent]
