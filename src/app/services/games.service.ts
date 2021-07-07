@@ -11,6 +11,8 @@ export class GamesService {
       title: 'Hollow Knight - Silksong',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 29.99,
       img: 'HollowKnightSilksong.jpg',
       newRelease: false
@@ -20,6 +22,8 @@ export class GamesService {
       title: 'Mario Kart 8 - Deluxe',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 49.99,
       img: 'MarioKart8Deluxe.jpg',
       newRelease: true
@@ -29,6 +33,8 @@ export class GamesService {
       title: 'New Super Mario Bros.U Deluxe',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 39.99,
       img: 'NewSuperMarioBrosUDeluxe.jpg',
       newRelease: false
@@ -38,6 +44,8 @@ export class GamesService {
       title: 'Ori And The Blind Forest - Definitive Edition',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 29.99,
       img: 'OriAndTheBlindForestDefinitiveEdition.jpg',
       newRelease: false
@@ -47,6 +55,8 @@ export class GamesService {
       title: 'Ori And The Will Of The Wisps',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 29.99,
       img: 'OriAndTheWillOfTheWisps.jpg',
       newRelease: true
@@ -56,6 +66,8 @@ export class GamesService {
       title: 'Pokemon Shield',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 34.99,
       img: 'PokemonShield.jpg',
       newRelease: false
@@ -65,6 +77,8 @@ export class GamesService {
       title: 'Pokemon Shining Pearl',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 34.99,
       img: 'PokemonShiningPearl.jpg',
       newRelease: true
@@ -74,6 +88,8 @@ export class GamesService {
       title: 'Pokemon Sword',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 34.99,
       img: 'PokemonSword.jpg',
       newRelease: false
@@ -83,6 +99,8 @@ export class GamesService {
       title: 'Rime',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 24.99,
       img: 'Rime.jpg',
       newRelease: true
@@ -92,6 +110,8 @@ export class GamesService {
       title: 'Super Mario 3D Allstars',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 39.99,
       img: 'SuperMario3DAllstars.jpg',
       newRelease: true
@@ -101,6 +121,8 @@ export class GamesService {
       title: 'Super Mario 3D World And Bowsers Fury',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 39.99,
       img: 'SuperMario3DWorldAndBowsersFury.jpg',
       newRelease: false
@@ -110,6 +132,8 @@ export class GamesService {
       title: 'Super Smash Bros Ultimate',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 49.99,
       img: 'SuperSmashBrosUltimate.jpg',
       newRelease: false
@@ -119,6 +143,8 @@ export class GamesService {
       title: 'The Legend Of Zelda Breath Of The Wild',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 59.99,
       img: 'TheLegendOfZeldaBreathOfTheWild.jpg',
       newRelease: true
@@ -128,6 +154,8 @@ export class GamesService {
       title: 'The Legend Of Zelda Links Awakening',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 49.99,
       img: 'TheLegendOfZeldaLinksAwakening.jpg',
       newRelease: false
@@ -137,6 +165,8 @@ export class GamesService {
       title: 'The Legend Of Zelda Skyward Sword HD',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 49.99,
       img: 'TheLegendOfZeldaSkywardSwordHD.jpg',
       newRelease: false
@@ -146,6 +176,8 @@ export class GamesService {
       title: 'Xenoblade Chronicles - Definitive Edition',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores error culpa libero vel praesentium ut, dignissimos consequuntur exercitationem fugit explicabo laboriosam totam laborum temporibus velit ex quia.',
+      shortDescription:
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente recusandae corrupti dolores',
       price: 44.99,
       img: 'XenobladeChroniclesDefinitiveEdition.jpg',
       newRelease: true

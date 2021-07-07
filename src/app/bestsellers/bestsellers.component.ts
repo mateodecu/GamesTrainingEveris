@@ -14,11 +14,15 @@ export class BestsellersComponent implements OnInit {
   title: string = 'bestsellers';
 
   bestsellers: Game[] = [];
+  bannerGame: Game;
 
   constructor(private _gamesService: GamesService, private router: Router) {}
 
   ngOnInit(): void {
     this.getGames();
+    this.bannerGame = this.bestsellers[
+      Math.floor(Math.random() * this.bestsellers.length)
+    ];
   }
 
   getGames(): void {
